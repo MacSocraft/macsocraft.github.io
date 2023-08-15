@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // Create an anchor element for the name with a custom link
           const nameLink = document.createElement('a');
           nameLink.href = `./item?lookup=${itemName}`; // Use 'itemName' for the query parameter
-          nameLink.textContent = item.name;
+          nameLink.textContent = itemName;
           nameCell.appendChild(nameLink);
      
      
